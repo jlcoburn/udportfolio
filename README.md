@@ -41,7 +41,12 @@ Install all listed gulp modules
 *  npm i -g html-min  
 *  npm install --save imagemin  
 
-Run 'gulp build' from project directory
+Run 'gulp build' from project directory.  
+Replace <style> in dist/index.html with minified dist/css/style.css.  
+
+###Issues
+
+Need to figure out how to automate adding minified CSS to html files.   
 
 
 
